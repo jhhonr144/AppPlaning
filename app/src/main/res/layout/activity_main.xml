@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="238dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="368dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logooo" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/Recordatorio"
+        android:layout_width="282dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="Recordatorio"
+        android:src="@drawable/ic_alarm_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.github.clans.fab.FloatingActionButton>
+
+    <Button
+        android:id="@+id/btnOpcionRegistro3"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="76dp"
+        android:onClick="spinner"
+        android:text="REALIZAR VENTA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpcionRegistro"
+        android:background="@drawable/btn_redondo"
+        android:textColor="@android:color/background_light"/>
+
+
+    <Button
+        android:id="@+id/btnOpcionRegistro4"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="16dp"
+        android:onClick="consultarLista"
+        android:text="LISTA DE CLIENTES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpcionRegistro3"
+        android:background="@drawable/btn_redondo"
+        android:textColor="@android:color/background_light"
+        />
+
+    <Button
+        android:id="@+id/btnOpcionRegistro"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/btn_redondo"
+        android:onClick="registrarusu"
+        android:text="REGISTRAR CLIENTES"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegisProducto"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="148dp"
+        android:onClick="registrarProduc"
+        android:text="REGISTRAR PRODUCTOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/btn_redondo"
+        android:textColor="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        android:onClick="consultarListaVentas"
+        android:text="LISTA VENTAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpcionRegistro4"
+        android:background="@drawable/btn_redondo"
+        android:textColor="@android:color/background_light"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

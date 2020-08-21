@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Plannig</string>
+    <string name="btn_registro">REGISTRAR USUARIO</string>
+    <string name="btn_consulta">CONSULTAR USUARIO</string>
+    <string name="btn_listar">LISTA DE USUARIOS</string>
+
+    <string name="txt_id">IDENTIFICACION</string>
+    <string name="txt_nombre">NOMBRE COMPLETO</string>
+    <string name="txt_telefono">TELEFONO</string>
+    <string name="btn_registrarusuario">REGISTRAR</string>
+</resources>
